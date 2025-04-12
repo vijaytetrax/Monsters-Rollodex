@@ -1,12 +1,55 @@
-# React + Vite
+# 👾 Monsters Rolodex
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beginner-friendly React project built while learning the core concepts of React such as class vs functional components, lifecycle methods, state management, and API calls. This app displays a list of "monsters" (users) fetched from an external API and allows you to filter them using a search box.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Functional and Class-based component implementations
+- Lifecycle methods (`componentDidMount`, `componentDidUpdate`)
+- React Hooks (`useState`, `useEffect`)
+- API calls using `fetch`
+- Reusable UI components
+- Controlled components and `onChange` event handling
+- Simple state-driven search filtering
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Concepts Practiced
+
+- **Class Components vs Functional Components**
+- **Lifecycle Methods**
+  - `componentDidMount`
+  - `componentDidUpdate`
+- **React Hooks**
+  - `useState`
+  - `useEffect`
+- **Event Handling**
+  - `onChange`
+- **Props and Component Reusability**
+- **Working with JSON APIs using `fetch()`**
+
+---
+
+## 📷 Preview
+
+![image](https://github.com/user-attachments/assets/ee76c975-f535-41f5-8205-57274cf05f2a)
+
+
+---
+
+## 🔧 Setup & Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/Monsters-Rolodex.git
+
+# Go to the project directory
+cd Monsters-Rolodex
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
